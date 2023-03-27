@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <!-- region Feature list of notes -->
+    <string name="note_list_toolbar_label">NotesApp</string>
+    <!-- endregion -->
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/uikit_spacing_xs"
+    android:orientation="vertical"
+    android:padding="@dimen/uikit_spacing_s">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/item_note_title"
+        style="@style/TextAppearance.AppCompat.TextSubtitleBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Chicken"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/item_note_body"
+        style="@style/TextAppearance.AppCompat.TextDescriptionNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/uikit_spacing_xs"
+        tools:text="Chicken ball tip short loin meatball, kevin beef ribs tail frankfurter Chicken ball tip short loin meatball, kevin beef ribs tail frankfurter" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
