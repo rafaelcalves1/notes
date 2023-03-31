@@ -4,10 +4,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.projects.notes.databinding.NoteManegementActivityBinding
-import com.projects.notes.databinding.NotesListActivityBinding
-import com.projects.notes.ui.customview.uikit.colorpicker.ColorPicker
-import com.projects.notes.ui.notelist.model.ColorBackground
-import com.projects.notes.ui.notelist.model.ColorItem
+import com.uikit.colorpicker.ColorBackground
+import com.uikit.colorpicker.ColorItem
+import com.uikit.colorpicker.ColorPicker
 
 class NoteManegementActivity: AppCompatActivity() {
 

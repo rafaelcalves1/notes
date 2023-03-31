@@ -13,7 +13,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:title="@string/management_note_add_toolbar_label" />
 
-    <com.projects.notes.ui.customview.uikit.colorpicker.ColorPicker
+    <com.uikit.colorpicker.ColorPicker
         android:id="@+id/colorPiker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

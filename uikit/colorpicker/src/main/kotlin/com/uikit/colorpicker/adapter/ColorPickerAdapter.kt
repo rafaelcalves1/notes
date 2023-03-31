@@ -1,4 +1,4 @@
-package com.projects.notes.ui.customview.uikit.colorpicker.adapter
+package com.uikit.colorpicker.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,9 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.projects.notes.databinding.ColorPickItemBinding
-import com.projects.notes.ui.notelist.model.ColorItem
-
+import com.uikit.colorpicker.databinding.ColorPickItemBinding
+import com.uikit.colorpicker.ColorItem
 
 internal class ColorPickerAdapter(
     private val listenner: (ColorItem) -> Unit

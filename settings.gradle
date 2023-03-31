@@ -12,5 +12,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "Notes"
 include ':app'
+include ':uikit'
+include ':uikit:colorpicker'

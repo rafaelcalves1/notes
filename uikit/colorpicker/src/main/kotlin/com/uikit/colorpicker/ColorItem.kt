@@ -1,15 +1,8 @@
-package com.projects.notes.ui.notelist.model
+package com.uikit.colorpicker
 
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
-import com.projects.notes.R
-import com.projects.notes.ui.notelist.model.ColorBackground.BLUE
-import com.projects.notes.ui.notelist.model.ColorBackground.DARK
-import com.projects.notes.ui.notelist.model.ColorBackground.GREEN_AQUA
-import com.projects.notes.ui.notelist.model.ColorBackground.LIGHT
-import com.projects.notes.ui.notelist.model.ColorBackground.MAGENTA
-import com.projects.notes.ui.notelist.model.ColorBackground.ORANGE
-import com.projects.notes.ui.notelist.model.ColorBackground.YELLOW
+import com.uikit.colorpicker.R
 
 data class ColorItem(
     val color: ColorBackground,

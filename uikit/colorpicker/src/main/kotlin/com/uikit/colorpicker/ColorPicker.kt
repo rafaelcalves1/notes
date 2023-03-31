@@ -1,19 +1,14 @@
-package com.projects.notes.ui.customview.uikit.colorpicker
+package com.uikit.colorpicker
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.FrameLayout
-import androidx.core.content.res.ResourcesCompat
-import androidx.core.content.withStyledAttributes
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.projects.notes.R
-import com.projects.notes.databinding.ColorPickerViewBinding
-import com.projects.notes.ui.customview.uikit.colorpicker.adapter.ColorPickerAdapter
-import com.projects.notes.ui.notelist.model.ColorItem
+import com.uikit.colorpicker.databinding.ColorPickerViewBinding
+import com.uikit.colorpicker.adapter.ColorPickerAdapter
 
 class ColorPicker(
     context: Context,

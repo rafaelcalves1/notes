@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="noteBlue">#3269ff</color>
+    <color name="noteYellow">#ffd947</color>
+    <color name="noteLight">#ffffff</color>
+    <color name="noteMagenta">#ae3b76</color>
+    <color name="noteGreenAqua">#0beaaf</color>
+    <color name="noteOrange">#fe7745</color>
+    <color name="noteDark">#0e121a</color>
+
+</resources>

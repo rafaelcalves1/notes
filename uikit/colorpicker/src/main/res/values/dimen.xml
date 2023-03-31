@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="uikit_color_pick_height">36dp</dimen>
+    <dimen name="uikit_color_pick_width">36dp</dimen>
+
+</resources>
