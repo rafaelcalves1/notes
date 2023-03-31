@@ -5,4 +5,8 @@
     <string name="note_list_toolbar_label">NotesApp</string>
     <!-- endregion -->
 
+    <!-- region Feature manegement notes -->
+    <string name="management_note_add_toolbar_label">AddNote</string>
+    <!-- endregion -->
+
 </resources>

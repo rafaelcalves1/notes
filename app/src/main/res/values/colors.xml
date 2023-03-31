@@ -22,4 +22,17 @@
     <color name="darkSecondary">#CCC2DC</color>
     <color name="darkSecondaryVariant">#B8A0DD</color>
     <color name="darkTertiary">#EFB8C8</color>
+    <!-- endregion -->
+
+    <!-- region Colors Notes -->
+    <color name="noteBlue">#3269ff</color>
+    <color name="noteYellow">#ffd947</color>
+    <color name="noteLight">#ffffff</color>
+    <color name="noteMagenta">#ae3b76</color>
+    <color name="noteGreenAqua">#0beaaf</color>
+    <color name="noteOrange">#fe7745</color>
+    <color name="noteDark">#0e121a</color>
+    <!-- endregion -->
+
+
 </resources>

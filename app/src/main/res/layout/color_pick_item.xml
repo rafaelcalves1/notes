@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/uikit_color_pick_width"
+    android:layout_height="@dimen/uikit_color_pick_height"
+    android:layout_margin="@dimen/uikit_spacing_s"
+    tools:background="@drawable/background_view_border_orange" />

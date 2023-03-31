@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorPicker">
+        <attr name="color_picker_item_selected" format="enum">
+            <enum name="firstColor" value="0"/>
+            <enum name="secondColor" value="1"/>
+            <enum name="thirdolor" value="2"/>
+            <enum name="fourthColor" value="3"/>
+            <enum name="fivethColor" value="4"/>
+            <enum name="sixthColor" value="5"/>
+            <enum name="sixColor" value="5"/>
+            <enum name="seventhColor" value="6"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

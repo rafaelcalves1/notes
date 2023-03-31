@@ -1,7 +1,6 @@
 package com.projects.notes.ui.notelist
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
@@ -12,7 +11,6 @@ import com.projects.notes.model.Note
 class NoteListAdapter(
     private val noteList: List<Note>
 ) : ListAdapter<Note, NoteListAdapter.NoteListViewHolder>(NoteDiffUtil()) {
-
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoteListViewHolder {
         val binding: NoteListItemBinding =
@@ -32,7 +30,6 @@ class NoteListAdapter(
 
         private val noteTitle = binding.itemNoteTitle
         private val noteDescription = binding.itemNoteBody
-        private val root = binding.root
 
         fun bind(note: Note) {
             noteTitle.text = note.title
@@ -49,5 +46,4 @@ private class NoteDiffUtil : DiffUtil.ItemCallback<Note>() {
     override fun areContentsTheSame(oldItem: Note, newItem: Note): Boolean {
         return oldItem == newItem
     }
-
 }
